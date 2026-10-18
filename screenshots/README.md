@@ -1,5 +1,19 @@
-# Wireshark Investigation Screenshots
+## Wireshark Evidence Screenshots
 
-This folder contains screenshots documenting the controlled Nmap scan and Wireshark packet analysis performed in an isolated VirtualBox lab.
+The following screenshots document the packet capture and analysis performed during the investigation.
 
-The screenshots provide visual evidence of the TCP connection attempts and reset responses observed during the investigation.
+### 1. Wireshark Capture Overview
+
+![Wireshark packet capture overview](screenshots/wireshark_screenshot.PNG)
+
+### 2. Packet Inspection
+
+![Wireshark packet inspection](screenshots/wireshark_screenshot1.PNG)
+
+### 3. TCP Reset Response Analysis
+
+![TCP reset response analysis](screenshots/screenshot_2.PNG)
+
+### 4. TCP Port Correlation
+
+![TCP port correlation](screenshots/screenshot_3.PNG)
