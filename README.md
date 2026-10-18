@@ -52,8 +52,24 @@ The observed reset responses provide evidence consistent with closed TCP ports o
 
 ## 7. Evidence Files
 
-- `lab01-nmap.scan.pcapng` — original packet capture
-- `screenshots/` — Wireshark evidence screenshots
+## Wireshark Evidence Screenshots
+
+### 1. Wireshark Capture Overview
+
+![Wireshark packet capture overview](screenshots/wireshark_screenshot.PNG)
+
+### 2. Packet Inspection
+
+![Wireshark packet inspection](screenshots/wireshark_screenshot1.PNG)
+
+### 3. TCP Reset Response Analysis
+
+![TCP reset response analysis](screenshots/screenshot_2.PNG)
+
+### 4. TCP Port Correlation
+
+![TCP port correlation](screenshots/screenshot_3.PNG)
+
 
 ## 8. Packet Correlation — TCP Port 80
 
