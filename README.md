@@ -57,7 +57,7 @@ The observed reset responses provide evidence consistent with closed TCP ports o
 
 ## 8. Packet Correlation — TCP Port 80
 
-A TCP connection attempt and its reset response were examined in Wireshark.
+The initial SYN packet and its reset response were examined in Wireshark.
 
 ### Initial SYN packet
 
@@ -74,7 +74,7 @@ A TCP connection attempt and its reset response were examined in Wireshark.
 - Packet number: `39`
 - Acknowledgment number displayed: `1`
 
-Wireshark's relative TCP sequence-number display was enabled during inspection. The endpoint addresses, reversed port numbers, TCP flags, and sequence/acknowledgment values help correlate the connection attempt with the reset response.
+Wireshark's relative TCP sequence-number display was enabled during inspection. The matching endpoint addresses, reversed port numbers, TCP flags, and sequence/acknowledgment values support correlating the connection attempt with the reset response.
 
 This observation is consistent with a connection attempt to a closed TCP port. It does not establish the overall security of the target host.
 
@@ -88,3 +88,9 @@ The investigation demonstrated how packet-level evidence can be used to interpre
 
 - `lab01-nmap.scan.pcapng` — original packet capture
 - `screenshots/` — Wireshark evidence screenshots
+
+## 11. Next Steps
+
+- Investigate DNS queries and responses.
+- Examine TCP connection establishment and teardown.
+- Compare packet-level observations with command-line results.
